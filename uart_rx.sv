@@ -39,7 +39,7 @@ clock_mul #(.SRC_FREQ(SRC_FREQ), .OUT_FREQ(BAUDRATE)) clock_mul_inst(
     reg [2:0] current_bit_index;
 
     // state tracks which state we're in 
-    integer state = INIT;
+    reg [1:0] state = INIT;
 
     // use as flag 
     reg done = 0;
