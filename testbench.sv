@@ -1,5 +1,4 @@
 
-`include "clock_mul.sv"
 
 `timescale 1ns / 1ps
 

@@ -1,4 +1,5 @@
-
+`ifndef UART_RX_SV
+`define UART_RX_SV
 
 module uart_rx (
     input clk,
@@ -110,3 +111,5 @@ end
     end
 
 endmodule
+
+`endif
